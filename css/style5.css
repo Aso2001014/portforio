@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  h2 {
+    font-family: "serif";
+    color: white;
+  }
+  
+  header {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    text-decoration: none; /* 下線を無効化 */
+    font-family: "ヒラギノ明朝 ProN";
+  }
+  
+  .logo p {
+    font-size: 16px;
+    margin: 0;
+    color: white;
+  }
+  
+  h4 {
+    color: white;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  .logo h1 {
+    font-size: 60px; /* ヘッダーの「らーめん」の文字のフォントサイズを変更 */
+    margin: 0;
+    color: white;
+    text-decoration: none; /* 下線を無効化 */
+    font-family: "ヒラギノ明朝 ProN";
+  }
+  
+  header a,
+  header a:link,
+  header a:hover,
+  header a:active {
+    text-decoration: none;
+    color: white;
+  }
+  
+ 
+  .col-2 {
+    flex: 1 0 50%;
+    width: 25%;
+  }
+  
+  .image-grid {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px; /* 下方向の余白を追加 */
+  }
+
+  .image-grid img {
+ 
+    display: flex;
+    justify-content: flex-start; /* 左寄せに配置 */
+   
+    max-width: 100%;
+    height: auto;
+    margin-right: 25px; /* 横方向の余白を調整 */
+    margin-bottom: -115px; 
+    margin-top: 100px;
+  }
+  
+ 
+  .image-grid img:last-child {
+    margin-right: 0;
+  }
+
+
+
+  .image-grid1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 35px; 
+  }
+  
+  
+  .image-grid1 img {
+    margin-right: 15px; 
+    justify-content: flex-start; /* 左寄せに配置 */
+    right: 30px;
+    width: 230px; /* 画像の横幅を固定サイズ（200px）に設定 */
+    height: auto;
+    margin-bottom: -190px; 
+    margin-top: 180px;
+  }
+
+  .image-grid img:last-child {
+    margin-left: -5px;
+  }
